@@ -1,0 +1,43 @@
+@media screen and (min-width: 1153px) { .header a:hover { opacity: .65; }
+  .f-nav a:not(:first-child):hover { text-decoration: underline; }
+  .footer .b a:hover { color: #fff; }
+  .fixctas li:hover .m, .fixctas .tel-num:hover, .fixctas a:hover { background-color: #000; } }
+@media screen and (max-width: 1600px) { .container { min-height: 800px; }
+  .banner .txts-1 { top: 15%; } }
+@media screen and (max-width: 1366px) { .container { min-height: 600px; }
+  .pw { width: 1000px; }
+  .header .nav { margin-left: 5%; }
+  .header .nav li > a { padding: 25px 18px; font-size: 15px; }
+  .h-link a { width: 115px; }
+  .banner .ti1 { font-size: 42px; }
+  .banner .ti2 { font-size: 15px; }
+  .banner .txts-2 { top: 30%; }
+  .banner .txts-1 { top: 12%; } }
+@media screen and (max-width: 1024px) { .vwrap .videobox { width: 700px; margin-left: -350px; }
+  .pw { width: 90%; }
+  .fixbg { background-attachment: scroll; }
+  .menuBtn, .mcv { display: block; }
+  .h-link, .header .nav { display: none; }
+  .header, .mtop { height: 60px; }
+  .header .logo { position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%) scale(0.7); transform: translate(-50%, -50%) scale(0.7); float: none; margin: 0; }
+  .banner .pic2 { position: relative; }
+  .fixctas .b { display: none; }
+  .banner .txts, .pc { display: none !important; }
+  .mo { display: block !important; }
+  .fixctas a, .fixctas .m { background-color: rgba(0, 0, 0, 0.8); }
+  .fixctas { right: 2px; }
+  .footer .f-ma { display: none; } }
+@media screen and (max-width: 861px) { .vwrap .videobox { width: 100%; left: 0; margin-left: 0; }
+  .footer .f-nav { width: 20%; margin-right: 0; margin-bottom: 10px; }
+  .footer .f-cta, .footer .f-cop { float: none; overflow: hidden; }
+  .footer .b { padding: 17px 0; } }
+@media screen and (max-width: 641px) { .vwrap .videobox { height: 350px; margin-top: -175px; } }
+@media screen and (max-width: 601px) { .footer .f-nav { width: 33.33%; }
+  .footer .f-nav:nth-child(3n-2) { clear: both; } }
+@media screen and (max-width: 481px) { .vwrap .videobox { height: 300px; margin-top: -150px; }
+  .container { min-height: 400px; }
+  .banner .slick-dots { bottom: 10px; }
+  .banner .slick-dots li { width: 18px; }
+  .f-cta a { display: block; float: none; margin-right: 0; }
+  .footer .b a { margin-left: 0; display: block; } }
+@media screen and (max-width: 321px) { .vwrap .videobox { height: 260px; margin-top: -130px; } }
