@@ -509,6 +509,7 @@ html.open{overflow: hidden; }
 .fixctas .s .m { background-position: center center; }
 .fixctas .tel .m { background-position: center bottom; }
 .fixctas li { position: relative; }
+.fixctas li.act .a { -webkit-transform: none; transform: none; opacity: 1; visibility: visible; }
 .fixctas .a { position: absolute; top: 0; right: 100%; width: 98px; border-bottom: 1px solid #666; -webkit-transform: translateX(-20px); transform: translateX(-20px); opacity: 0; visibility: hidden; -webkit-transition: 400ms; transition: 400ms; }
 .fixctas a { display: block; position: relative; height: 52px; background: #2a2a2a; border: 1px solid #666; border-right: none; border-bottom: none; color: #fff; font-size: 12px; text-align: center; }
 .fixctas a:before { content: ""; position: absolute; right: -1px; top: -1px; bottom: -1px; width: 1px; background: #666; }
@@ -519,8 +520,6 @@ html.open{overflow: hidden; }
 .fixctas .tel .a { top: -200%; }
 .fixctas .b { position: absolute; top: -1px; right: 100%; background: #2a2a2a; border: 1px solid #666; white-space: nowrap; -webkit-transform: translateX(-20px); transform: translateX(-20px); opacity: 0; visibility: hidden; -webkit-transition: 400ms; transition: 400ms; }
 .fixctas .tel-num { padding: 0 30px 0 20px; font-size: 18px; line-height: 52px; -webkit-transition: 300ms; transition: 300ms; }
-
-.fixctas a:hover .b, .fixctas li:hover .a { -webkit-transform: none; transform: none; opacity: 1; visibility: visible; }
 
 .menuBtn { position: absolute; top: 0; left: 0; width: 60px; height: 60px; display: none; }
 .menuBtn .mb { position: relative; height: 100%; -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.4, 0.01, 0.165, 0.99); transition: -webkit-transform 0.4s cubic-bezier(0.4, 0.01, 0.165, 0.99); transition: transform 0.4s cubic-bezier(0.4, 0.01, 0.165, 0.99); transition: transform 0.4s cubic-bezier(0.4, 0.01, 0.165, 0.99), -webkit-transform 0.4s cubic-bezier(0.4, 0.01, 0.165, 0.99); }

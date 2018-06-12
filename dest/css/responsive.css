@@ -1,3 +1,4 @@
+@media screen and (min-width: 1025px) { .fixctas a:hover .b, .fixctas li:hover .a { -webkit-transform: none; transform: none; opacity: 1; visibility: visible; } }
 @media screen and (min-width: 1153px) { .header a:hover { opacity: .65; }
   .f-nav a:not(:first-child):hover { text-decoration: underline; }
   .footer .b a:hover { color: #fff; }
