@@ -971,9 +971,10 @@ html.open{overflow: hidden; }
 .news-a .tx1 { font-size: 18px; height: 56px; line-height: 28px; color: #000; }
 .news-a .tx2 { margin-top: 18px; height: 48px; line-height: 24px; }
 .news-a .news-date { margin-top: 28px; }
+.news-a .ti1 { padding: 0 15px; line-height: 60px; font-size: 16px; color: #000; }
 
 .news-list { margin-left: -15px; }
-.news-list li { float: left; width: 33.33%; margin-bottom: 15px; }
+.news-list li { float: left; width: 33.33%; margin-bottom: 25px; }
 .news-list .news-a { margin-left: 15px; }
 
 .ab3 { padding: 90px 0; }
@@ -983,3 +984,7 @@ html.open{overflow: hidden; }
 #map { height: 825px; }
 
 .BMap_mask { background: rgba(0, 0, 0, 0.6) !important; }
+
+.case1 { padding: 70px 0 80px 0; }
+.case1 .news-list { margin-bottom: 45px; }
+.case1 .ab-ti { margin-bottom: 40px; }

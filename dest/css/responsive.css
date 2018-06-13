@@ -83,7 +83,7 @@
   .ab-tx .ti1, .pbanner .ti1 { font-size: 12px; }
   .ab-tx .freeTx { margin-top: 35px; }
   .ab-tx .ixmore { margin-top: 55px; }
-  .ab3, .ab1 { padding: 50px 0 60px 0; }
+  .case1, .ab3, .ab1 { padding: 50px 0 60px 0; }
   .ixmore { width: 150px; }
   .mcv { line-height: 52px; font-size: 15px; }
   .pnav a { padding: 14px 20px; font-size: 15px; }
@@ -93,9 +93,12 @@
   .ab2 { padding: 70px 0 120px 0; }
   .cer-dot .slick-dots { bottom: -50px; }
   .news-list { margin-left: 0; }
-  .news-list li { width: 100%; float: none; margin-bottom: 25px; }
+  .news-list li { width: 100%; float: none; }
   .news-list .news-a { margin-left: 0; }
   .ab3 .ab-ti { margin-bottom: 30px; }
   .ab3 .news-list { margin-bottom: 25px; }
-  #map { height: 325px; } }
+  #map { height: 325px; }
+  .ab3 .news-list li:nth-child(3) { display: block; }
+  .case1 .ab-ti { margin-bottom: 30px; }
+  .case1 .news-list { margin-bottom: 25px; } }
 @media screen and (max-width: 321px) { .vwrap .videobox { height: 260px; margin-top: -130px; } }
