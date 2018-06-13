@@ -1,23 +1,35 @@
+@media screen and (min-width: 862px) { .pnav a.act { background: #333; color: #fff; } }
 @media screen and (min-width: 1025px) { .fixctas a:hover .b, .fixctas li:hover .a { -webkit-transform: none; transform: none; opacity: 1; visibility: visible; } }
 @media screen and (min-width: 1153px) { .header a:hover { opacity: .65; }
   .f-nav a:not(:first-child):hover { text-decoration: underline; }
   .footer .b a:hover { color: #fff; }
-  .fixctas li:hover .m, .fixctas .tel-num:hover, .fixctas a:hover { background-color: #000; } }
+  .fixctas li:hover .m, .fixctas .tel-num:hover, .fixctas a:hover { background-color: #000; }
+  .pnav a:hover { background: #333; color: #fff; }
+  .cer-arrow .slick-arrow:hover { background-color: #333; }
+  .cer-arrow .slick-prev:hover { background-position: right top; }
+  .cer-arrow .slick-next:hover { background-position: left bottom; }
+  .cer-dot .slick-dots li:hover { background: #333; }
+  .cer-list .pic:hover { -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); }
+  .ixmore:hover { background: #333; color: #fff; }
+  .news-a:hover { -webkit-transform: translateY(-10px); transform: translateY(-10px); -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); } }
 @media screen and (max-width: 1600px) { .container { min-height: 800px; }
-  .banner .txts-1 { top: 15%; } }
+  .banner .txts-1 { top: 15%; }
+  #map { height: 625px; } }
 @media screen and (max-width: 1366px) { .container { min-height: 600px; }
   .pw { width: 1000px; }
   .header .nav { margin-left: 5%; }
   .header .nav li > a { padding: 25px 18px; font-size: 15px; }
   .h-link a { width: 115px; }
-  .banner .ti1 { font-size: 42px; }
-  .banner .ti2 { font-size: 15px; }
+  .ab-tx .ti2, .pbanner .ti2, .banner .ti1 { font-size: 42px; }
+  .pbanner .ti1, .banner .ti2 { font-size: 15px; }
+  .ab-tx .ti1 { font-size: 16px; }
   .banner .txts-2 { top: 30%; }
-  .banner .txts-1 { top: 12%; } }
+  .banner .txts-1 { top: 12%; }
+  #map { height: 525px; } }
 @media screen and (max-width: 1024px) { .vwrap .videobox { width: 700px; margin-left: -350px; }
   .pw { width: 90%; }
   .fixbg { background-attachment: scroll; }
-  .menuBtn, .mcv { display: block; }
+  .menuBtn { display: block; }
   .h-link, .header .nav { display: none; }
   .header, .mtop { height: 60px; }
   .header .logo { position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%) scale(0.7); transform: translate(-50%, -50%) scale(0.7); float: none; margin: 0; }
@@ -27,18 +39,63 @@
   .mo { display: block !important; }
   .fixctas a, .fixctas .m { background-color: rgba(0, 0, 0, 0.8); }
   .fixctas { right: 2px; }
-  .footer .f-ma { display: none; } }
+  .footer .f-ma { display: none; }
+  .news-a .txts { padding: 30px 20px 0 20px; }
+  .cer-list .pic { margin: 5px; border: 8px solid #fff; }
+  .cer-dot .slick-dots { bottom: -60px; }
+  .cer-arrow .slick-prev { left: 0; }
+  .cer-arrow .slick-next { right: 0; }
+  .cer-list { padding: 0 85px; }
+  .pbanner .pic2 > img { -webkit-transform: none !important; transform: none !important; } }
 @media screen and (max-width: 861px) { .vwrap .videobox { width: 100%; left: 0; margin-left: 0; }
   .footer .f-nav { width: 20%; margin-right: 0; margin-bottom: 10px; }
   .footer .f-cta, .footer .f-cop { float: none; overflow: hidden; }
-  .footer .b { padding: 17px 0; } }
+  .footer .b { padding: 17px 0; }
+  .mcv { display: block; position: relative; z-index: 100; background: #fff; line-height: 60px; font-size: 16px; }
+  .pnav { position: relative; }
+  .pnav ul { display: none; position: absolute; left: 0; right: 0; z-index: 99; top: 100%; margin-top: 1px; background: #fff; -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); }
+  .pnav li { display: block; }
+  .ab-tx .ti2, .pbanner .ti2, .banner .ti1 { font-size: 36px; }
+  .ab-tx .freeTx, .ab-tx .ti1, .pbanner .ti1, .banner .ti2 { font-size: 14px; }
+  .pbanner .ti1 { margin-bottom: 3px; }
+  .ab1 { padding-top: 80px; }
+  .cer-arrow .slick-prev { -webkit-transform-origin: left center; transform-origin: left center; }
+  .cer-arrow .slick-next { -webkit-transform-origin: right center; transform-origin: right center; }
+  .cer-arrow .slick-arrow { -webkit-transform: scale(0.8); transform: scale(0.8); }
+  .cer-list { padding: 0 65px; }
+  .ab2 { padding: 90px 0 150px 0; }
+  .news-list li { width: 50%; }
+  .ab3 .news-list li:nth-child(3) { display: none; } }
 @media screen and (max-width: 641px) { .vwrap .videobox { height: 350px; margin-top: -175px; } }
 @media screen and (max-width: 601px) { .footer .f-nav { width: 33.33%; }
-  .footer .f-nav:nth-child(3n-2) { clear: both; } }
+  .footer .f-nav:nth-child(3n-2) { clear: both; }
+  #map { height: 425px; }
+  .ab-tx .ti2, .pbanner .ti2, .banner .ti1 { font-size: 30px; }
+  .ab-ti { font-size: 30px; } }
 @media screen and (max-width: 481px) { .vwrap .videobox { height: 300px; margin-top: -150px; }
   .container { min-height: 400px; }
   .banner .slick-dots { bottom: 10px; }
   .banner .slick-dots li { width: 18px; }
   .f-cta a { display: block; float: none; margin-right: 0; }
-  .footer .b a { margin-left: 0; display: block; } }
+  .footer .b a { margin-left: 0; display: block; }
+  .ab-tx .ti2, .pbanner .ti2, .banner .ti1 { font-size: 24px; }
+  .ab-ti { font-size: 24px; }
+  .ab-tx .ti1, .pbanner .ti1 { font-size: 12px; }
+  .ab-tx .freeTx { margin-top: 35px; }
+  .ab-tx .ixmore { margin-top: 55px; }
+  .ab3, .ab1 { padding: 50px 0 60px 0; }
+  .ixmore { width: 150px; }
+  .mcv { line-height: 52px; font-size: 15px; }
+  .pnav a { padding: 14px 20px; font-size: 15px; }
+  .cer-arrow .slick-arrow { -webkit-transform: scale(0.65); transform: scale(0.65); }
+  .cer-list { padding: 0 55px; }
+  .ab2 .cer-list { margin-top: 30px; }
+  .ab2 { padding: 70px 0 120px 0; }
+  .cer-dot .slick-dots { bottom: -50px; }
+  .news-list { margin-left: 0; }
+  .news-list li { width: 100%; float: none; margin-bottom: 25px; }
+  .news-list .news-a { margin-left: 0; }
+  .ab3 .ab-ti { margin-bottom: 30px; }
+  .ab3 .news-list { margin-bottom: 25px; }
+  #map { height: 325px; } }
 @media screen and (max-width: 321px) { .vwrap .videobox { height: 260px; margin-top: -130px; } }
