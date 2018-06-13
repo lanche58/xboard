@@ -11,7 +11,9 @@
   .cer-dot .slick-dots li:hover { background: #333; }
   .cer-list .pic:hover { -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); }
   .ixmore:hover { background: #333; color: #fff; }
-  .news-a:hover { -webkit-transform: translateY(-10px); transform: translateY(-10px); -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); } }
+  .news-a:hover { -webkit-transform: translateY(-10px); transform: translateY(-10px); -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); }
+  .nd-nav a:hover { color: #114893; }
+  .nd-back a:hover { color: #114893; } }
 @media screen and (max-width: 1600px) { .container { min-height: 800px; }
   .banner .txts-1 { top: 15%; }
   #map { height: 625px; } }
@@ -100,5 +102,6 @@
   #map { height: 325px; }
   .ab3 .news-list li:nth-child(3) { display: block; }
   .case1 .ab-ti { margin-bottom: 30px; }
-  .case1 .news-list { margin-bottom: 25px; } }
+  .case1 .news-list { margin-bottom: 25px; }
+  .nd-box .ti { font-size: 24px; } }
 @media screen and (max-width: 321px) { .vwrap .videobox { height: 260px; margin-top: -130px; } }
