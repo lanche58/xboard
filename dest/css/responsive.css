@@ -16,7 +16,9 @@
   .nd-back a:hover { color: #114893; }
   .pro-a:hover .pro-more { color: #114893; }
   .buy-btn:hover { background: #333; }
-  .pi-controls .pic:hover { border-color: #114893; } }
+  .pi-controls .pic:hover { border-color: #114893; }
+  .ser-nav .sv2 a:hover { color: #114893; }
+  .ser-nav .sv1:hover { opacity: 0.65; } }
 @media screen and (max-width: 1700px) { .pi-controls { margin-top: 6%; } }
 @media screen and (max-width: 1600px) { .container { min-height: 800px; }
   .banner .txts-1 { top: 15%; }
@@ -40,7 +42,8 @@
   .pi-controls { width: 144px; height: 342px; }
   .pdd-tx .freeTx { font-size: 16px; }
   .psg-arrow.cer-arrow .slick-prev { left: -80px; }
-  .psg-arrow.cer-arrow .slick-next { right: -80px; } }
+  .psg-arrow.cer-arrow .slick-next { right: -80px; }
+  .ser-nav.fix { margin-left: -500px; } }
 @media screen and (max-width: 1281px) { .pro-tx .txx { bottom: 5%; }
   .psg-list { padding: 0; }
   .psg-arrow.cer-arrow .slick-prev { left: 25px; }
@@ -81,7 +84,17 @@
   .psg-arrow.cer-arrow .slick-prev { left: 0; }
   .psg-arrow.cer-arrow .slick-next { right: 0; }
   .psg-arrow.cer-arrow .slick-arrow { border-radius: 0; }
-  .pd1 .ab-ti { width: 500px; max-width: 100%; margin: 0 auto; } }
+  .pd1 .ab-ti { width: 500px; max-width: 100%; margin: 0 auto; }
+  .ser-box.pw { width: 100%; }
+  .ser-nav .ico, .ser-nav li:before, .ser-box:before { display: none; }
+  .ser-nav { width: 100%; padding: 55px 5%; -webkit-box-sizing: border-box; box-sizing: border-box; float: none; background: #f4f4f4; }
+  .ser-nav a { text-align: left; line-height: 36px; }
+  .ser-nav li { overflow: hidden; padding: 0; }
+  .ser-nav li + li { margin-top: 10px; }
+  .ser-nav .sv1 { float: left; width: 120px; background: #000; text-align: center; font-size: 14px; white-space: nowrap; color: #fff; overflow: hidden; }
+  .ser-nav .sv2 { display: block; padding: 0; margin-left: 160px; overflow: hidden; }
+  .ser-nav .sv2 a { float: left; margin-right: 40px; }
+  .ser-tx { margin-left: 0; padding: 70px 5% 50px 5%; } }
 @media screen and (max-width: 861px) { .vwrap .videobox { width: 100%; left: 0; margin-left: 0; }
   .footer .f-nav { width: 20%; margin-right: 0; margin-bottom: 10px; }
   .footer .f-cta, .footer .f-cop { float: none; overflow: hidden; }
@@ -111,7 +124,10 @@
   .pro-a .txts { padding-top: 35px; padding-bottom: 15px; }
   .pd1 .ab-ti { width: 400px; }
   .pd1 .psg-list { margin-top: 50px; }
-  .pd1 { padding: 75px 0 85px 0; } }
+  .pd1 { padding: 75px 0 85px 0; }
+  .ser-nav .sv1 { width: 100px; }
+  .ser-nav .sv2 a { margin-right: 30px; }
+  .ser-nav .sv2 { margin-left: 130px; } }
 @media screen and (max-width: 601px) { .footer .f-nav { width: 33.33%; }
   .footer .f-nav:nth-child(3n-2) { clear: both; }
   #map { height: 425px; }
@@ -164,6 +180,13 @@
   .nd-nav { font-size: 12px; }
   .pdd-tx .ab-tx { padding-bottom: 45px; }
   .pd1 .psg-list { margin-top: 30px; }
-  .pd1 { padding: 55px 0; } }
+  .pd1 { padding: 55px 0; }
+  .ser-nav .sv1 { width: 80px; }
+  .ser-nav a { line-height: 30px; }
+  .ser-nav .sv2 a { margin-right: 15px; }
+  .ser-nav .sv2 { margin-left: 95px; }
+  .ser-nav { padding: 45px 5%; }
+  .s-item .ti { font-size: 20px; }
+  .ser-tx { padding: 55px 5% 30px 5%; } }
 @media screen and (max-width: 321px) { .vwrap .videobox { height: 260px; margin-top: -130px; }
   .buy-btn { width: 66px; } }

@@ -6,7 +6,7 @@ input,
 select,
 textarea {
     font: 14px/1.8 "times new roman", arial, tahoma, "Microsoft Yahei", "微软雅黑", "Microsoft JhengHei", "微软正黑体", sans-serif;
-    color: #666;
+    color: #333;
 }
 h1, h2, h3, h4, h5, h6 {font-size: 100%; }
 b, cite, code, em, i, small, th {font-style: normal; }
@@ -1068,3 +1068,25 @@ html.open{overflow: hidden; }
 
 .pd1 { padding: 95px 0 125px 0; }
 .pd1 .psg-list { margin-top: 70px; }
+
+.ser-nav { width: 200px; min-height: 1px; float: left; padding-top: 70px; -webkit-transition: opacity 600ms, visibility 600ms, -webkit-transform 600ms; transition: opacity 600ms, visibility 600ms, -webkit-transform 600ms; transition: transform 600ms, opacity 600ms, visibility 600ms; transition: transform 600ms, opacity 600ms, visibility 600ms, -webkit-transform 600ms; }
+.ser-nav a { display: block; color: #000; line-height: 30px; text-align: right; }
+.ser-nav li { padding-right: 30px; padding-bottom: 20px; position: relative; }
+.ser-nav li.act:before { height: 100%; }
+.ser-nav li.act .sv2 { display: block; }
+.ser-nav li:before { content: ""; position: absolute; top: 0; right: -3px; height: 0; width: 4px; background: #333; -webkit-transition: 400ms; transition: 400ms; -webkit-transition-timing-function: linear; transition-timing-function: linear; }
+.ser-nav .sv1 { font-size: 24px; }
+.ser-nav .ico { width: 24px; height: 24px; margin-right: 10px; }
+.ser-nav .sv2 { padding-top: 20px; display: none; }
+.ser-nav .sv2 a.cur { color: #114893; }
+.ser-nav.fix { position: fixed; left: 50%; margin-left: -600px; top: 75px; }
+.ser-nav.hide { -webkit-transform: translateY(20px); transform: translateY(20px); opacity: 0; visibility: hidden; }
+
+.ser-tx { margin-left: 200px; padding: 70px 0 50px 10%; }
+.ser-tx .ab-ti { margin-bottom: 20px; }
+
+.ser-box { position: relative; overflow: hidden; min-height: 1000px; }
+.ser-box:before { content: ""; position: absolute; top: 0; left: 200px; height: 100%; width: 1px; background: #ccc; }
+
+.s-item { border-top: 1px solid #ccc; padding: 35px 0; }
+.s-item .ti { font-size: 24px; margin-bottom: 15px; }
