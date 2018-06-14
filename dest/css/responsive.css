@@ -1,4 +1,5 @@
-@media screen and (min-width: 862px) { .pnav a.act { background: #333; color: #fff; } }
+@media screen and (min-width: 862px) { .pnav a.act { background: #333; color: #fff; }
+  .fnav-box .pnav a.act { background: none; color: #114893; } }
 @media screen and (min-width: 1025px) { .fixctas a:hover .b, .fixctas li:hover .a { -webkit-transform: none; transform: none; opacity: 1; visibility: visible; } }
 @media screen and (min-width: 1153px) { .header a:hover { opacity: .65; }
   .f-nav a:not(:first-child):hover { text-decoration: underline; }
@@ -18,15 +19,16 @@
   .buy-btn:hover { background: #333; }
   .pi-controls .pic:hover { border-color: #114893; }
   .ser-nav .sv2 a:hover { color: #114893; }
-  .ser-nav .sv1:hover { opacity: 0.65; } }
+  .ser-nav .sv1:hover { opacity: 0.65; }
+  .fnav-box .pnav a:hover { background: none; color: #114893; } }
 @media screen and (max-width: 1700px) { .pi-controls { margin-top: 6%; } }
-@media screen and (max-width: 1600px) { .container { min-height: 800px; }
+@media screen and (max-width: 1600px) { .ser-box, .container { min-height: 800px; }
   .banner .txts-1 { top: 15%; }
   #map { height: 625px; }
   .pi-controls .pic { height: 110px; }
   .pi-controls { width: 164px; height: 396px; } }
 @media screen and (max-width: 1440px) { .pdd-tx .ab-tx { right: 10%; top: 25%; } }
-@media screen and (max-width: 1366px) { .container { min-height: 600px; }
+@media screen and (max-width: 1366px) { .ser-box, .container { min-height: 600px; }
   .pw { width: 1000px; }
   .header .nav { margin-left: 5%; }
   .header .nav li > a { padding: 25px 18px; font-size: 15px; }
@@ -94,15 +96,17 @@
   .ser-nav .sv1 { float: left; width: 120px; background: #000; text-align: center; font-size: 14px; white-space: nowrap; color: #fff; overflow: hidden; }
   .ser-nav .sv2 { display: block; padding: 0; margin-left: 160px; overflow: hidden; }
   .ser-nav .sv2 a { float: left; margin-right: 40px; }
-  .ser-tx { margin-left: 0; padding: 70px 5% 50px 5%; } }
+  .ser-tx { margin-left: 0; padding: 70px 5% 50px 5%; }
+  .ser-tx > .freeTx { padding-bottom: 50px; } }
 @media screen and (max-width: 861px) { .vwrap .videobox { width: 100%; left: 0; margin-left: 0; }
   .footer .f-nav { width: 20%; margin-right: 0; margin-bottom: 10px; }
   .footer .f-cta, .footer .f-cop { float: none; overflow: hidden; }
   .footer .b { padding: 17px 0; }
-  .mcv { display: block; position: relative; z-index: 100; background: #fff; line-height: 60px; font-size: 16px; }
+  .mcv { display: block; position: relative; z-index: 100; background: #fff; line-height: 60px; font-size: 16px; padding: 0 5%; }
   .pnav { position: relative; }
   .pnav ul { display: none; position: absolute; left: 0; right: 0; z-index: 99; top: 100%; margin-top: 1px; background: #fff; -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); }
   .pnav li { display: block; }
+  .pnav a { padding-left: 5%; padding-right: 5%; }
   .ab-tx .ti2, .pbanner .ti2, .banner .ti1 { font-size: 36px; }
   .ab-tx .freeTx, .ab-tx .ti1, .pbanner .ti1, .banner .ti2 { font-size: 14px; }
   .pbanner .ti1 { margin-bottom: 3px; }
@@ -116,7 +120,12 @@
   .ab3 .news-list li:nth-child(3) { display: none; }
   .pbanner .more { margin-top: 30px; }
   .pdd-tx .ab-tx { position: static; padding: 55px 5%; text-align: center; color: #333; }
-  .pdd-tx .freeTx { text-align: center; } }
+  .pdd-tx .freeTx { text-align: center; }
+  .fnav-box .pw { width: 100%; }
+  .fnav-box .pnav { margin-right: 0; border-bottom: 1px solid #ccc; }
+  .fnav-box .mcv, .fnav-box .pnav ul { text-align: left; }
+  .fnav-box { border: none; }
+  .fnav-box .buy-btn { right: 5%; } }
 @media screen and (max-width: 641px) { .vwrap .videobox { height: 350px; margin-top: -175px; }
   .pbanner .ab-ti { font-size: 30px; }
   .pro-more .pm-btn { display: none; }
@@ -139,7 +148,7 @@
   .pro-a .ti2 { margin-top: 8px; font-size: 14px; }
   .pd1 .ab-ti { width: 320px; } }
 @media screen and (max-width: 481px) { .vwrap .videobox { height: 300px; margin-top: -150px; }
-  .container { min-height: 400px; }
+  .ser-box, .container { min-height: 400px; }
   .banner .slick-dots { bottom: 10px; }
   .banner .slick-dots li { width: 18px; }
   .f-cta a { display: block; float: none; margin-right: 0; }
@@ -187,6 +196,8 @@
   .ser-nav .sv2 { margin-left: 95px; }
   .ser-nav { padding: 45px 5%; }
   .s-item .ti { font-size: 20px; }
-  .ser-tx { padding: 55px 5% 30px 5%; } }
+  .ser-tx { padding: 55px 5% 30px 5%; }
+  .fnav-box .buy-btn { top: 9px; }
+  .ser-tx > .freeTx { padding-top: 10px; padding-bottom: 20px; } }
 @media screen and (max-width: 321px) { .vwrap .videobox { height: 260px; margin-top: -130px; }
   .buy-btn { width: 66px; } }

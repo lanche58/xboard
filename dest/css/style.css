@@ -1084,9 +1084,16 @@ html.open{overflow: hidden; }
 
 .ser-tx { margin-left: 200px; padding: 70px 0 50px 10%; }
 .ser-tx .ab-ti { margin-bottom: 20px; }
+.ser-tx > .freeTx { padding-top: 40px; }
 
 .ser-box { position: relative; overflow: hidden; min-height: 1000px; }
 .ser-box:before { content: ""; position: absolute; top: 0; left: 200px; height: 100%; width: 1px; background: #ccc; }
 
 .s-item { border-top: 1px solid #ccc; padding: 35px 0; }
 .s-item .ti { font-size: 24px; margin-bottom: 15px; }
+
+.fnav-box { border-bottom: 1px solid #ccc; }
+.fnav-box .pnav { border: none; margin-right: 140px; }
+.fnav-box .pnav ul { text-align: right; }
+.fnav-box .pnav a.act { background: none; color: #114893; }
+.fnav-box .buy-btn { position: absolute; right: 0; top: 13px; z-index: 299; }
