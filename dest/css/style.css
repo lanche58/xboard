@@ -1095,5 +1095,4 @@ html.open{overflow: hidden; }
 .fnav-box { border-bottom: 1px solid #ccc; }
 .fnav-box .pnav { border: none; margin-right: 140px; }
 .fnav-box .pnav ul { text-align: right; }
-.fnav-box .pnav a.act { background: none; color: #114893; }
 .fnav-box .buy-btn { position: absolute; right: 0; top: 13px; z-index: 299; }

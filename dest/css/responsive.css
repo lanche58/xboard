@@ -45,7 +45,10 @@
   .pdd-tx .freeTx { font-size: 16px; }
   .psg-arrow.cer-arrow .slick-prev { left: -80px; }
   .psg-arrow.cer-arrow .slick-next { right: -80px; }
-  .ser-nav.fix { margin-left: -500px; } }
+  .ser-nav.fix { margin-left: -500px; }
+  .ser-nav .sv1 { font-size: 18px; }
+  .ser-nav li { padding-bottom: 15px; }
+  .ser-nav .sv2 { padding-top: 15px; } }
 @media screen and (max-width: 1281px) { .pro-tx .txx { bottom: 5%; }
   .psg-list { padding: 0; }
   .psg-arrow.cer-arrow .slick-prev { left: 25px; }
