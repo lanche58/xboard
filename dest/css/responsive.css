@@ -193,7 +193,10 @@
   .ft1 .ft-tx { margin-top: 25px; }
   .ft1 { padding: 85px 0; }
   .ft3 { padding: 105px 0 115px 0; }
-  .func-list li { width: 50%; } }
+  .func-list li { width: 50%; }
+  .para-list .pr-tx, .para-list .pr-ti { float: none; width: 100%; overflow: hidden; }
+  .para-list .pr-ti { margin-bottom: 30px; }
+  .ft4 { padding-bottom: 115px; } }
 @media screen and (max-width: 641px) { .vwrap .videobox { height: 350px; margin-top: -175px; }
   .pbanner .ab-ti { font-size: 30px; }
   .pro-more .pm-btn { display: none; }
@@ -204,7 +207,9 @@
   .pd1 { padding: 75px 0 85px 0; }
   .ser-nav .sv1 { width: 100px; }
   .ser-nav .sv2 a { margin-right: 30px; }
-  .ser-nav .sv2 { margin-left: 130px; } }
+  .ser-nav .sv2 { margin-left: 130px; }
+  .pr-tx p { float: none; width: 100%; }
+  .ft4 { padding-bottom: 95px; } }
 @media screen and (max-width: 601px) { .footer .f-nav { width: 33.33%; }
   .footer .f-nav:nth-child(3n-2) { clear: both; }
   #map { height: 425px; }
@@ -290,7 +295,9 @@
   .func-list li { font-size: 14px; }
   .func-list .nowti { margin-top: 10px; }
   .ft3 .func-list { margin-top: 35px; }
-  .ft3 { padding: 65px 0 45px 0; } }
+  .ft3 { padding: 65px 0 45px 0; }
+  .pr-ti { font-size: 24px; }
+  .ft4 { padding-bottom: 20px; } }
 @media screen and (max-width: 321px) { .vwrap .videobox { height: 260px; margin-top: -130px; }
   .buy-btn { width: 66px; }
   .ft-dot-list li, .ft-io .ft-dot-list li { width: 70px; margin-bottom: 20px; }

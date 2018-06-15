@@ -1166,3 +1166,17 @@ html.open{overflow: hidden; }
 .ft3 { color: #fff; padding: 145px 0 195px 0; }
 .ft3 .ft-tx { margin-top: 15px; }
 .ft3 .func-list { margin-top: 70px; }
+
+.para-box { width: 910px; max-width: 90%; margin: 0 auto; }
+
+.pr-ti { font-size: 28px; }
+
+.pr-tx p { float: left; width: 50%; font-size: 16px; line-height: 30px; color: #666; }
+
+.pr-tx p:nth-child(2n-1) { clear: both; }
+
+.para-list li { border-top: 1px solid #ccc; padding: 50px 0; }
+.para-list .pr-ti { float: left; width: 27%; line-height: 30px; }
+.para-list .pr-tx { float: left; width: 73%; }
+
+.ft4 { padding-bottom: 135px; }
