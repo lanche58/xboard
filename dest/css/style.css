@@ -1126,6 +1126,7 @@ html.open{overflow: hidden; }
 .ft-io { position: relative; overflow: hidden; }
 .ft-io .txts { position: absolute; z-index: 9; }
 .ft-io.wc { color: #fff; }
+.ft-io.wc .ft-dot-list .ico { border-color: #fff; background-position: center top; }
 .ft-io a { color: #333; }
 .ft-io.wc a { color: #fff; }
 .ft-io .tx-pos1 { left: 5%; right: 5%; top: 16%; }
@@ -1147,3 +1148,21 @@ html.open{overflow: hidden; }
 .ft-io .tx-pos8 .ft-tx + .ft-tx { margin-top: 30px; }
 .ft-io .tx-pos8 .ft-tx:before { content: ""; position: absolute; left: 0; top: 11px; border-radius: 100%; width: 7px; height: 7px; background: #fff; }
 .ft-io .tx-pos8 .ft-ti2 { margin-bottom: 50px; }
+.ft-io .tx-pos9 { right: 14%; top: 15%; width: 500px; }
+.ft-io .tx-pos9 .ft-tx, .ft-io .tx-pos10 .ft-tx { margin-top: 15px; }
+.ft-io .tx-pos9 .ft-dot-list, .ft-io .tx-pos10 .ft-dot-list { margin-top: 75px; }
+.ft-io .tx-pos9 .pro-more, .ft-io .tx-pos10 .pro-more { margin-top: 45px; }
+.ft-io .tx-pos10 { left: 10%; top: 20%; width: 532px; }
+.ft-io .ft-dot-list { text-align: left; }
+.ft-io .ft-dot-list li { width: 88px; text-align: center; margin: 0 45px 30px 0; }
+.ft-io .ft-dot-list .ico { height: 86px; }
+
+.func-list { margin-left: -20px; }
+.func-list li { width: 33.33%; float: left; margin-bottom: 20px; font-size: 18px; }
+.func-list .ma { margin-left: 20px; }
+.func-list .nowti { text-align: center; margin-top: 25px; padding: 0 15px; }
+.func-list a { color: #333; }
+
+.ft3 { color: #fff; padding: 145px 0 195px 0; }
+.ft3 .ft-tx { margin-top: 15px; }
+.ft3 .func-list { margin-top: 70px; }

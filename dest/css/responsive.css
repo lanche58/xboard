@@ -23,7 +23,10 @@
   .fnav-box .pnav a:hover { background: none; color: #114893; }
   .pro-more:hover { color: #114893; }
   .pro-more.wc:hover { color: #fff; } }
-@media screen and (max-width: 1700px) { .pi-controls { margin-top: 6%; } }
+@media screen and (max-width: 1700px) { .pi-controls { margin-top: 6%; }
+  .ft-io .tx-pos9 .ft-dot-list, .ft-io .tx-pos10 .ft-dot-list { margin-top: 55px; }
+  .ft-io .tx-pos9 .pro-more, .ft-io .tx-pos10 .pro-more { margin-top: 25px; }
+  .ft-io .tx-pos9 { top: 12%; } }
 @media screen and (max-width: 1600px) { .ser-box, .container { min-height: 800px; }
   .banner .txts-1 { top: 15%; }
   #map { height: 625px; }
@@ -32,8 +35,12 @@
   .ft-io .tx-pos4, .ft-io .tx-pos8 { top: 22%; }
   .ft-io .tx-pos5 { top: 16%; }
   .ft-io .tx-pos7 { top: 26%; }
-  .ft-io .tx-pos3 { top: 20%; } }
-@media screen and (max-width: 1440px) { .pdd-tx .ab-tx { right: 10%; top: 25%; } }
+  .ft-io .tx-pos3 { top: 20%; }
+  .ft-io .ft-dot-list li { margin-right: 30px; }
+  .ft-io .tx-pos9 { width: 590px; right: 10%; }
+  .ft-io .tx-pos10 { top: 16%; } }
+@media screen and (max-width: 1440px) { .pdd-tx .ab-tx { right: 10%; top: 25%; }
+  .ft3 { padding-bottom: 175px; } }
 @media screen and (max-width: 1366px) { .ser-box, .container { min-height: 600px; }
   .pw { width: 1000px; }
   .header .nav { margin-left: 5%; }
@@ -63,7 +70,8 @@
   .ft-io .tx-pos5 .ft-tx { margin-top: 45px; }
   .ft-io .tx-pos5 .pro-more { margin-top: 8%; }
   .ft-io .tx-pos7 { top: 22%; }
-  .ft-io .tx-pos8 { top: 17%; } }
+  .ft-io .tx-pos8 { top: 17%; }
+  .ft3 { padding: 125px 0 155px 0; } }
 @media screen and (max-width: 1281px) { .pro-tx .txx { bottom: 5%; }
   .psg-list { padding: 0; }
   .psg-arrow.cer-arrow .slick-prev { left: 25px; }
@@ -145,7 +153,11 @@
   .ft-io .tx-pos8 .ft-tx:before { display: none; }
   .ft-io .tx-pos8 .ft-tx { padding-left: 0; }
   .ft-io .tx-pos8 .ft-tx + .ft-tx { margin-top: 0; }
-  .ft-io .tx-pos7 .ft-tx { margin-top: 30px; } }
+  .ft-io .tx-pos7 .ft-tx { margin-top: 30px; }
+  .ft-io .ft-dot-list li { margin-left: 17px; margin-right: 17px; }
+  .ft-io .ft-dot-list { width: 366px; margin-left: auto; margin-right: auto; }
+  .ft-io .tx-pos9 .pro-more, .ft-io .tx-pos10 .pro-more { margin-top: 45px; }
+  .ft-io.wc .ft-dot-list .ico { border-color: #333; background-position: center bottom; } }
 @media screen and (max-width: 861px) { .vwrap .videobox { width: 100%; left: 0; margin-left: 0; }
   .footer .f-nav { width: 20%; margin-right: 0; margin-bottom: 10px; }
   .footer .f-cta, .footer .f-cop { float: none; overflow: hidden; }
@@ -179,7 +191,9 @@
   .ft-dot-list { width: 402px; margin-left: auto; margin-right: auto; }
   .ft-dot-list li { margin-bottom: 35px; }
   .ft1 .ft-tx { margin-top: 25px; }
-  .ft1 { padding: 85px 0; } }
+  .ft1 { padding: 85px 0; }
+  .ft3 { padding: 105px 0 115px 0; }
+  .func-list li { width: 50%; } }
 @media screen and (max-width: 641px) { .vwrap .videobox { height: 350px; margin-top: -175px; }
   .pbanner .ab-ti { font-size: 30px; }
   .pro-more .pm-btn { display: none; }
@@ -266,6 +280,20 @@
   .ft-io .pro-more { color: #114893 !important; }
   .ft-io .tx-pos5 .pro-more, .ft-io .tx-pos3 .pro-more { margin-top: 40px; }
   .ft-io .tx-pos5 .ft-tx, .ft-io .tx-pos4 .ft-tx { margin-top: 30px; }
-  .ft-io .tx-pos6 { bottom: 5%; } }
+  .ft-io .tx-pos6 { bottom: 5%; }
+  .ft-io .ft-dot-list li { margin-left: 10px; margin-right: 10px; }
+  .ft-io .ft-dot-list { width: 324px; }
+  .ft-io .tx-pos9 .ft-dot-list, .ft-io .tx-pos10 .ft-dot-list { margin-top: 35px; }
+  .ft-io .tx-pos9 .pro-more, .ft-io .tx-pos10 .pro-more { margin-top: 15px; }
+  .func-list .ma { margin-left: 10px; }
+  .func-list { margin-left: -10px; }
+  .func-list li { font-size: 14px; }
+  .func-list .nowti { margin-top: 10px; }
+  .ft3 .func-list { margin-top: 35px; }
+  .ft3 { padding: 65px 0 45px 0; } }
 @media screen and (max-width: 321px) { .vwrap .videobox { height: 260px; margin-top: -130px; }
-  .buy-btn { width: 66px; } }
+  .buy-btn { width: 66px; }
+  .ft-dot-list li, .ft-io .ft-dot-list li { width: 70px; margin-bottom: 20px; }
+  .ft-dot-list .ico { height: 68px; background-size: 68px; }
+  .ft-io .ft-dot-list .ico { height: 68px; }
+  .ft-dot-list, .ft-io .ft-dot-list { width: 270px; } }
