@@ -196,7 +196,8 @@
   .func-list li { width: 50%; }
   .para-list .pr-tx, .para-list .pr-ti { float: none; width: 100%; overflow: hidden; }
   .para-list .pr-ti { margin-bottom: 30px; }
-  .ft4 { padding-bottom: 115px; } }
+  .ft4 { padding-bottom: 115px; }
+  .ab-h { height: 30px; } }
 @media screen and (max-width: 641px) { .vwrap .videobox { height: 350px; margin-top: -175px; }
   .pbanner .ab-ti { font-size: 30px; }
   .pro-more .pm-btn { display: none; }
@@ -297,7 +298,8 @@
   .ft3 .func-list { margin-top: 35px; }
   .ft3 { padding: 65px 0 45px 0; }
   .pr-ti { font-size: 24px; }
-  .ft4 { padding-bottom: 20px; } }
+  .ft4 { padding-bottom: 20px; }
+  .ab-h { height: 0; } }
 @media screen and (max-width: 321px) { .vwrap .videobox { height: 260px; margin-top: -130px; }
   .buy-btn { width: 66px; }
   .ft-dot-list li, .ft-io .ft-dot-list li { width: 70px; margin-bottom: 20px; }
