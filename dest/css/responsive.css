@@ -22,7 +22,9 @@
   .ser-nav .sv1:hover { opacity: 0.65; }
   .fnav-box .pnav a:hover { background: none; color: #114893; }
   .pro-more:hover { color: #114893; }
-  .pro-more.wc:hover { color: #fff; } }
+  .pro-more.wc:hover { color: #fff; }
+  .down-list li:hover { background: #e5e5e5; }
+  .down-list .ico:hover { background-position: center bottom; } }
 @media screen and (max-width: 1700px) { .pi-controls { margin-top: 6%; }
   .ft-io .tx-pos9 .ft-dot-list, .ft-io .tx-pos10 .ft-dot-list { margin-top: 55px; }
   .ft-io .tx-pos9 .pro-more, .ft-io .tx-pos10 .pro-more { margin-top: 25px; }
@@ -157,7 +159,10 @@
   .ft-io .ft-dot-list li { margin-left: 17px; margin-right: 17px; }
   .ft-io .ft-dot-list { width: 366px; margin-left: auto; margin-right: auto; }
   .ft-io .tx-pos9 .pro-more, .ft-io .tx-pos10 .pro-more { margin-top: 45px; }
-  .ft-io.wc .ft-dot-list .ico { border-color: #333; background-position: center bottom; } }
+  .ft-io.wc .ft-dot-list .ico { border-color: #333; background-position: center bottom; }
+  .down-list li { padding-left: 0; }
+  .fnav-box { position: relative; top: 0; }
+  .vtop { height: auto; } }
 @media screen and (max-width: 861px) { .vwrap .videobox { width: 100%; left: 0; margin-left: 0; }
   .footer .f-nav { width: 20%; margin-right: 0; margin-bottom: 10px; }
   .footer .f-cta, .footer .f-cop { float: none; overflow: hidden; }
@@ -210,7 +215,12 @@
   .ser-nav .sv2 a { margin-right: 30px; }
   .ser-nav .sv2 { margin-left: 130px; }
   .pr-tx p { float: none; width: 100%; }
-  .ft4 { padding-bottom: 95px; } }
+  .ft4 { padding-bottom: 95px; }
+  .down-list .nowti { font-size: 16px; padding-left: 30px; }
+  .down-list .nowti:before { -webkit-transform-origin: left center; transform-origin: left center; -webkit-transform: scale(0.8); transform: scale(0.8); }
+  .down-list .ico { width: 60px; }
+  .down-list .btn { -webkit-transform-origin: right center; transform-origin: right center; -webkit-transform: scale(0.8); transform: scale(0.8); }
+  .down-list li { padding-right: 120px; } }
 @media screen and (max-width: 601px) { .footer .f-nav { width: 33.33%; }
   .footer .f-nav:nth-child(3n-2) { clear: both; }
   #map { height: 425px; }
@@ -299,7 +309,11 @@
   .ft3 { padding: 65px 0 45px 0; }
   .pr-ti { font-size: 24px; }
   .ft4 { padding-bottom: 20px; }
-  .ab-h { height: 0; } }
+  .ab-h { height: 0; }
+  .down-list .nowti { font-size: 14px; padding-left: 20px; }
+  .down-list .nowti:before { -webkit-transform: scale(0.7); transform: scale(0.7); }
+  .down-list .btn { -webkit-transform-origin: right center; transform-origin: right center; -webkit-transform: scale(0.7); transform: scale(0.7); }
+  .down-list li { padding-right: 90px; } }
 @media screen and (max-width: 321px) { .vwrap .videobox { height: 260px; margin-top: -130px; }
   .buy-btn { width: 66px; }
   .ft-dot-list li, .ft-io .ft-dot-list li { width: 70px; margin-bottom: 20px; }
